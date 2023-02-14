@@ -1,1 +1,7 @@
-Ocean_restutants*/
+*.settings.py
+*.asgi.py
+*.urls.py
+*.wsgi.py
+
+
+
