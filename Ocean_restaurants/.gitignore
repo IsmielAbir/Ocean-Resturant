@@ -1,7 +1,4 @@
-*.settings.py
-*.asgi.py
-*.urls.py
-*.wsgi.py
+*.restaurant
 
 
-
+ocean_restaurants/ocean_restaurants*/
