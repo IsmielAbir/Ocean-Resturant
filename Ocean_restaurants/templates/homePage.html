@@ -10,6 +10,55 @@
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <title>Ocean Resturant</title>
 
+    <style>
+        .head1 {
+            text-align: center;
+            margin: 80px;
+        }
+        
+        .head {
+            margin: 80px;
+            background-color: azure;
+            color: black;
+            font-weight: 400;
+        }
+        
+        .card-group {
+            margin: 30px;
+            border-radius: 30px;
+        }
+        
+        .card {
+            margin: 5px;
+        }
+        
+        .section4 {
+            margin: 50px;
+        }
+        
+        .c1 {
+            margin: 20px;
+            padding: 40px;
+        }
+        
+        .head {
+            display: block;
+            margin: 0 auto;
+            background-color: rgb(254, 143, 7);
+            font-weight: 700;
+            font-size: 1.8em;
+            border: 4px solid white;
+            border-radius: 17px;
+        }
+        
+        .head:hover {
+            background-color: rgb(4, 255, 171);
+        }
+        
+        .section5 {
+            margin: 50px;
+        }
+    </style>
 
 </head>
 
@@ -108,6 +157,121 @@
             </button>
         </div>
 
+    </section>
+
+
+    <section>
+
+        <h1 class="head1">Tasty and Safty</h1>
+
+        <div class="card-group">
+            <div class="card">
+                <img src="{% static 'images/1.JPG' %}" height="400px" class="card-img-top im" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tasty</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi reprehenderit nihil cumque mollitia. Veniam sint doloremque amet maiores voluptate debitis iusto dolores, cum corporis architecto et quia?</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="{% static 'images/2.JPG' %}" height="400px" class="card-img-top im" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Safty</h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo ex blanditiis iusto distinctio. Distinctio ipsam nemo aut perspiciatis ipsum similique maxime, culpa tempore!</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="{% static 'images/3.JPG' %}" height="400px" class="card-img-top im" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Food varity</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo aliquid, quasi sequi fuga ut sed vitae. Sunt iste nostrum aliquam, dolore architecto perferendis excepturi saepe.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="section4">
+
+        <h1 class="head1"> Our Food Menu</h1>
+
+
+        <div class="card-group">
+            <div class="card c1" style="width: 18rem;">
+                <img src="{% static 'images/77.JPG' %}" height="500px" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3>Greek Salad</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nemo hic facilis est ducimus inventore, unde eos dolore, minima enim error nesciunt impedit nostrum quam.</p>
+                </div>
+            </div>
+
+            <div class="card c1" style="width: 18rem;">
+                <img src="{% static 'images/88.JPG' %}" height="500px" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3>Sea Food</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nemo hic facilis est ducimus inventore, unde eos dolore, minima enim error nesciunt impedit nostrum quam.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="head">See More...</button>
+    </section>
+
+
+    <section class="section5">
+
+        <h1 class="head1">Necessary Information</h1>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Quality of our food
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas facilis quis ducimus optio inventore? Autem, perferendis dicta? Odio magni eligendi itaque exercitationem sit commodi, soluta autem. Est, quos? Vero id expedita nisi cupiditate voluptas accusantium eos officiis, libero, dolorem nobis ullam maxime harum eveniet, quae dignissimos. Libero recusandae nisi veniam?</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Safty we follow
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam provident iusto itaque corrupti accusantium labore, obcaecati esse ad explicabo illo deserunt omnis similique nemo cum, odio blanditiis totam libero? Quisquam quod suscipit alias cupiditate eligendi adipisci, id nam placeat non quasi repudiandae vel aliquam facere ea optio in vero explicabo doloribus obcaecati similique ratione. Saepe laboriosam natus eius fugit voluptates.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Any query to contact
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam, expedita repellendus, eum at architecto commodi enim cumque qui veniam eaque blanditiis veritatis velit! Vitae repudiandae esse laborum. Inventore earum, distinctio ducimus consectetur libero, quidem corporis cupiditate recusandae aspernatur neque similique atque dolore aliquam ut nulla ratione enim harum eius! A quod quas incidunt nihil autem!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <footer>
+            <br>
+            <h1 class="head1">All right deserved by @Abir</h1>
+
+        </footer>
     </section>
 
 
