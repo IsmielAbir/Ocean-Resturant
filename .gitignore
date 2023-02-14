@@ -4,7 +4,7 @@ __pycache__/
 ./admin.py
 .*exe
 
-Ocean_restaurants/
+Ocean_restaurants/Ocean_restaurants/
 static/
 restaurant/
 
