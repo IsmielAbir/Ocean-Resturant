@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+.navbar-brand {
+    font-size: 1.8em !important;
+    color: rgb(56, 194, 194) !important;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: rgb(58, 188, 188) !important;
+}
+
+.image-size {
+    width: 100px !important;
+    height: 700px !important;
+}
+
+body {
+    background-color: rgb(130, 213, 213) !important;
+}
+
+button {
+    background-color: rgb(80, 186, 186);
+    border: 2px;
+    border-radius: 7px;
+    color: white;
+    border-color: aquamarine;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 4px 2px;
+    margin-bottom: 4px !important;
+    cursor: pointer;
+    border-radius: 4px;
+}
