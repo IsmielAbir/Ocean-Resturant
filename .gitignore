@@ -1,6 +1,9 @@
 *.pyc
 db.sqlite3
 venv/
-restaurant
+restaurant/
 __pycache__/
 local_settings.py
+Ocean_restaurants/Ocean_restaurants
+Ocean_restaurants/static
+Ocean_restaurants/templates
