@@ -7,3 +7,6 @@ local_settings.py
 Ocean_restaurants/Ocean_restaurants
 Ocean_restaurants/static
 Ocean_restaurants/templates
+Ocean_restaurants/Ocean_restaurants/local_settings
+Ocean_restaurants/Ocean_restaurants/settings.py
+
